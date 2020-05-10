@@ -44,22 +44,20 @@ export const useKeySequence = (keys: string[], callback?: Function): [boolean, F
   return [match, setMatch];
 };
 
-export const useKonamiCode = (): [boolean, Function] => {
-  const keys = [
-    'ArrowUp',
-    'ArrowUp',
-    'ArrowDown',
-    'ArrowDown',
-    'ArrowLeft',
-    'ArrowRight',
-    'ArrowLeft',
-    'ArrowRight',
-    'b',
-    'a',
-    ' ',
-  ];
+export const keySequence = [
+  'ArrowUp',
+  'ArrowUp',
+  'ArrowDown',
+  'ArrowDown',
+  'ArrowLeft',
+  'ArrowRight',
+  'ArrowLeft',
+  'ArrowRight',
+  'b',
+  'a',
+  ' ',
+];
 
-  return useKeySequence(keys);
-};
+export const useKonamiCode = (): [boolean, Function] => useKeySequence(keySequence);
 
 export default useKonamiCode;
