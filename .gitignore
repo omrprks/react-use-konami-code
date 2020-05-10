@@ -142,3 +142,6 @@ temp/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
+.env
+.env*.local
