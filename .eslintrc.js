@@ -28,8 +28,8 @@ module.exports = {
         '.tsx',
       ],
     }],
-    'import/no-unresolved': ['error', {
-      ignore: ['^react$'],
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: ["src/**/*.test.ts", "src/**/*.test.tsx"],
     }],
     'import/extensions': [
       'error',
