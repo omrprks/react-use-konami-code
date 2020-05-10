@@ -1,9 +1,12 @@
 {
   "name": "@omrprks/react-use-konami-code",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "React hook for adding the Konami code key sequence to a web application",
   "license": "MIT",
   "author": "Omar Parkes",
+  "repository": "github:omrprks/react-use-konami-code.git",
+  "bugs": "https://github.com/omrprks/react-use-konami-code/issues",
+  "homepage": "https://github.com/omrprks/react-use-konami-code#readme",
   "main": "dist/index.js",
   "module": "dist/lib.esm.js",
   "typings": "dist/index.d.ts",
